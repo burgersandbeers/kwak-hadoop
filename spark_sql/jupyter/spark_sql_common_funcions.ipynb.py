@@ -9,3 +9,4 @@ ratingText= sc.textFile('/user/cloudera/ratings.dat')
 ratingsData = ratingText.map(lambda line: line.split(':'))
 movieData = movieText.map(lambda line: line.split(':'))
 
+
